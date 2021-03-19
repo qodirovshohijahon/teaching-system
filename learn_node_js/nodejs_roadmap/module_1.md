@@ -1,26 +1,33 @@
-Module 1
+#### Module 1
 
-#### Lesson 1.
-- [x] **1.1 An Introduction to JavaScript**
-  - [x] Developer console
-  - [x] Hello, world!
 
-- [x] **1.2 Variables**
-  - [x] Working with variables
-  - [x] Giving the right name
-  - [x] Uppercase const?
-- [x] **1.3 Data types**
-  - [x] String quotes
+<details>
 
-- [x] **1.4 Interaction: alert, prompt, confirm**
-  - [x] A simple page
+<summary>Lesson 1. Basic concepts</summary>
+<br>
 
-- [x] **1.5 Type Conversions**
-  - [x] Basic operators, maths
-  - [x] The postfix and prefix forms
-  - [x] Assignment result
-  - [x] Type conversions
-  - [x] Fix the addition
+  - **1.1 An Introduction to JavaScript**
+     - Developer console
+     - Hello, world!
+
+-  **1.2 Variables**
+    - Working with variables
+    - Giving the right name
+    - Uppercase const?
+-  **1.3 Data types**
+  - String quotes
+
+-  **1.4 Interaction: alert, prompt, confirm**
+  - A simple page
+
+- **1.5 Type Conversions**
+  - Basic operators, maths
+  - The postfix and prefix forms
+  - Assignment result
+  - Type conversions
+  - Fix the addition
+</p>
+</details>
 
 #### Lesson 2.
 
@@ -62,6 +69,8 @@ Module 1
 - [x] **2.8 Function expressions**
 - [x] **2.9 Arrow fu  nctions, the basics**
   - [x] Rewrite with arrow functions
+</p>
+</details>
 
 #### Lesson 3.
 
