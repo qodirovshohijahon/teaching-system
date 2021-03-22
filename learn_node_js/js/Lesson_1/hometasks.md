@@ -1,3 +1,6 @@
+#### Instructions for doing hometasks
+
+**:warning:Beforo doing exercises read and learn each articles after that you can do all exercises at the end**
 #### Articles for learnings
 <br>
 
