@@ -19,7 +19,7 @@
     <code>      var message = 'Hello'`;</code>
 </details>
 
-<details open>
+<details>
 <summary><b>Variable naming</b></summary>
     There are two limitations on variable names in JavaScript:<br>
     <li>The name must contain only letters, digits, or the symbols $ and _.</li>
@@ -30,8 +30,8 @@
     <code>let 1a; // cannot start with a digit</code><br>
     <code>let my-name; // hyphens '-' aren't allowed in the name</code>
 </details>
-<details open>
-<summary>Constants</summary>
+<details>
+<summary><b>Constants</b></summary>
     <li>To declare a constant (unchanging) variable, use const instead of let:</li>
     <code>const myBirthday = '18.04.1982';</code><br>
     Variables declared using <code>const</code> are called “constants”. They cannot be reassigned. An attempt to do so would cause an error:<br>
