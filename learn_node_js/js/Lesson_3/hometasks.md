@@ -1,85 +1,77 @@
-#### Instructions for doing hometasks
+#### Basic
+#### 1.1
+Write a JavaScript program to `delete` the `age` property from the following object. Also print the object before or after deleting the property.
+Sample 
+object:
+```js
+var student = {
+    name : "David Rayy",
+    sclass : "VI",
+    age : 16 
+};
+```
+#### 1.2
 
-**:warning:Beforo doing exercises read and learn each articles after that you can do all exercises at the end**
-#### Articles for learnings
+
+#### 1. Football Club
+
+Create an object to store the following information about your favorite football club: `name` (a `string`), numbers of football players (a `number`), and players (an `array of strings`).
+
+Create a function to print out the movie information like so: "Real Madrid has 25 more players . Players: Sergio Ramos, Varane, Kross."
+
+#### 2. The Cash Register
+Write a function called `cashRegister` that takes a shopping cart object. The object contains item names and prices (`itemName: itemPrice`). The function should return the total price of the shopping cart.
+Example
+// Input
+```js
+    let cartForParty = {  
+            banana: "1.25",
+            handkerchief: ".99",
+            Tshirt: "25.01",
+            apple: "0.60",
+            nalgene: "10.34",
+            proteinShake: "22.36"
+    };
+```
+// Output
+`cashRegister(cartForParty)); // 60.55`
+#### 3. Credit Card Validation
+
+You're starting your own credit card business. You need to come up with a new way to validate credit cards with a simple function called validateCreditCard that returns true or false.
+
+Here are the rules for a valid number:
+
+- [ ] Number must be 16 digits,
+- [ ] all of them must be numbers
+- [ ] You must have at least two different digits represented (all of the digits cannot be the same)
+- [ ] The final digit must be even
+- [ ] The sum of all the digits must be greater than 16
+
+**The following credit card numbers are valid:**
+
+`9999777788880000`
+`6666666666661666`
+
+**The following credit card numbers are invalid:**
+
+`a92332119c011112 invalid characters`
+`4444444444444444 only one type of number`
+`1111111111111110 sum less than 16`
+`6666666666666661 odd final number`
+*******************
+
+<br>
+<br>
+<br>
 <br>
 
-**Tutorialspoint.com**
-
-1.1 [Javascript Tutorial](https://www.tutorialspoint.com/javascript/index.htm)<br>
-1.2 [JavaScript - Overview](https://www.tutorialspoint.com/javascript/javascript_overview.htm)<br>
-1.3 [JavaScript - Syntax](https://www.tutorialspoint.com/javascript/javascript_syntax.htm)<br>
-1.4 [Enabling JavaScript in Browsers](https://www.tutorialspoint.com/javascript/javascript_enabling.htm)<br>
-1.5 [JavaScript - Placement in HTML File](https://www.tutorialspoint.com/javascript/javascript_placement.htm)<br>
-1.6 [JavaScript - Variables](https://www.tutorialspoint.com/javascript/javascript_variables.htm)<br>
-<br>
-
-**Other resources**
-
-<br>
-
-1. [Grammar_and_types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types)
-2. [Data_structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
-3. [01_values](https://eloquentjavascript.net/01_values.html)
-
-<br>
-
-#### Do these hometasks and push your github repositories
-
-0.1 [data-structures-in-javascript 1-10](https://github.com/qodirovshohijahon/data-structures-in-javascript/blob/main/1.Basic_JavaScript/1-10.md)
-<details>
-<summary><b>1.1 Show an alert</b></summary>
-
-Create a page that shows a message “I’m JavaScript!”.<br>
-Do it in a sandbox, or on your hard drive, doesn’t matter, just ensure that it works.
-</details>
-
-<details>
-<summary><b>1.2 Show an alert with an external script</b></summary>
-<br>
-
-Take the solution of the previous task Show an alert.<br>
-Modify it by extracting the script content into an external file alert.js, residing in the same folder.<br>
-Open the page, ensure that the alert works.
-
-</details>
-
-<details>
-<summary><b>1.3 Working with variables</b></summary>
-
-Declare two variables: admin and name.<br>
-Assign the value "John" to name.<br>
-Copy the value from name to admin.<br>
-Show the value of admin using alert (must output “John”).<br>
-</details>
-
-<details>
-<summary><b>1.3 Giving the right name</b></summary>
-
-Create a variable with the name of our planet. How would you name such a variable?<br>
-Create a variable to store the name of a current visitor to a website. How would you name that variable?.<br>
-Assign the value "John" to name.<br>
-</details>
 
 
-<details>
-<summary><b>1.3 Giving the right name</b></summary>
+**After doing above exercises you can do it more with the following**
+##### Make optimize the above exercises
+A valid credit card number may also contain dashes, to make a card number easier to read. For example, the following credit card numbers are now also valid:
 
-Create a variable with the name of our planet. How would you name such a variable?<br>
-Create a variable to store the name of a current visitor to a website. How would you name that variable?.<br>
-Assign the value "John" to name.<br>
-</details>
-<details>
-<summary><b>1.4 String quotes</b></summary>
+`9999-7777-8888-0000`
+`6666-6666-6666-1666`
 
-What is the output of the script?
-
-<code>let name = "Ilya";</code><br>
-<code>console.log( `hello ${1}` ); // ?</code><br>
-<code>console.log( `hello ${"name"}` ); // ?</code><br>
-<code>console.log( `hello ${name}` ); // ?</code><br>
-</details>
-<details>
-<summary><b>1.5 A simple page</b></summary>
-Create a web-page that asks for a name and outputs it.
-</details>
+Update your program to allow such numbers. (Hint: Remove the dashes from the input string before checking if the input credit card number is valid.)
