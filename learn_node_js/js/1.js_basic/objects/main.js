@@ -74,7 +74,7 @@ let laptop = {
     }
 }
 
-console.log(laptop.buy())
+//console.log(laptop.buy())
 
 //function getNumber() {
 //    let numberOne;
@@ -84,4 +84,19 @@ console.log(laptop.buy())
 
 //console.log(getNumber())
 //console.log(numberOne)
+
+let box = {
+  futbolka : "200",  
+  shim : "100" , 
+  romolcha : "200" , 
+};
+function cashRegister(price){
+  let value=0;
+  for(key in price){
+  console.log(price)
+  value += parseInt(price[key]);
+}
+return value;
+}
+alert(cashRegister(box));
 
