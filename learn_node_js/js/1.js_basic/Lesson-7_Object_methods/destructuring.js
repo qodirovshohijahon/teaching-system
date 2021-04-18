@@ -63,4 +63,4 @@ const usersInfo = {
 
 let { data: { user } } = usersInfo
 
-console.log(user)
+//console.log(user)
