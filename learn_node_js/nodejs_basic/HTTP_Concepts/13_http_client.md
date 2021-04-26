@@ -1,7 +1,7 @@
 HTTP Client with Core http
 In web development we often want to make HTTP requests to other services, and Node provides a core module http to make such requests. This module uses the event emitter pattern. The idea is that you get a small chunk of the overall response (usually a single line of the overall payload/body) during each data event. You can process the data right away (preferred for large data) or save it all together in a buffer variable for future use once all the data has been received (preferred for JSON).
 
-
+![Node Streams](../../imd/node-streams.png)
 Take a look at the example in http-get-no-buff.js in which each new line (chunk) of the response is printed back to the terminal with console.log:
 
 http-get-no-buff.js:
@@ -25,6 +25,7 @@ The result of running this script will be the home page HTML from http://nodepro
 
 If you want to wait for the entire response, simply create a new variable as a buffer variable (rawData) and save the chunks (parts of the response, usually lines in the payload/body) into it (rawData).
 
+![Node Buffer](../../imd/node-buffer.png)
 
 In http-get.js, all the chunks are saved into a buffer variable named rawData before being logged at the end:
 
