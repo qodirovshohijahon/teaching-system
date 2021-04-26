@@ -1,35 +1,36 @@
-#### Module 1
-
+### Module 1
 
 <details>
-
 <summary>Lesson 1. Basic concepts</summary>
 <br>
 
-  - **1.1 An Introduction to JavaScript**
-     - Developer console
-     - Hello, world!
+- [x] **1.1 An Introduction to JavaScript**
+  - [x] Developer console
+  - [x] Hello, world!
 
--  **1.2 Variables**
-    - Working with variables
-    - Giving the right name
-    - Uppercase const?
--  **1.3 Data types**
-  - String quotes
+- [x]  **1.2 Variables**
+    - [x] Working with variables
+    - [x] Giving the right name
+    - [x] Uppercase const?
+- [x]  **1.3 Data types**
+    - [x] String quotes
 
--  **1.4 Interaction: alert, prompt, confirm**
-  - A simple page
+- [x]  **1.4 Interaction: alert, prompt, confirm**
+    - [x] A simple page
 
-- **1.5 Type Conversions**
-  - Basic operators, maths
-  - The postfix and prefix forms
-  - Assignment result
-  - Type conversions
-  - Fix the addition
+- [x] **1.5 Type Conversions**
+  - [x] Basic operators, maths
+  - [x] The postfix and prefix forms
+  - [x] Assignment result
+  - [x] Type conversions
+  - [x] Fix the addition
 </p>
 </details>
 
-#### Lesson 2.
+<details >
+
+<summary>Lesson 2. Operators</summary>
+<br>
 
 - [x] **2.1 Comparisons**
   - [x] Comparisons
@@ -72,7 +73,10 @@
 </p>
 </details>
 
-#### Lesson 3.
+<details >
+
+<summary>Lesson 3. Data types & Arrays</summary>
+<br>
 
 - [x] **3.1 Numbers**
   - [x] Sum numbers from the visitor
@@ -108,7 +112,13 @@
   - [x] Filter unique array members
   - [x] Create keyed object from array
 
-#### Lesson 4
+</details>
+
+<details >
+
+<summary>Lesson 4. Object Basics</summary>
+<br>
+
 - [x] **4.1 Objects**
   - [x] Hello, object
   - [x] Check for emptiness
@@ -129,8 +139,13 @@
 - [x] **4.8 Object.keys, values, entries**
   - [x] Sum the properties
   - [x] Count properties
-  
-  #### Lesson 5
+
+</details>
+
+<details >
+
+<summary>Lesson 5. Date & Destructuring assignment</summary>
+<br>
 
 - [x] **5.1 Destructuring assignment**
   - [x] Destructuring assignment
@@ -156,7 +171,12 @@
   - [x] Output a single-linked list in the reverse order
 - [x] **5.5 Rest parameters and spread syntax**
 
-#### Lsson 6
+</details>
+<details >
+
+<summary>Lesson 6. Class Basics</summary>
+<br>
+
 - [x] **6.1 Class basic syntax**
   - [x] Rewrite to class
 - [x] **6.2 Class inheritance**
@@ -170,7 +190,12 @@
 - [x] **6.7 Strange instanceof**
 - [x] **6.8 Mixins**
 
-#### Lesson 7
+</details>
+
+<details >
+
+<summary>Lesson 7. Error handling</summary>
+<br>
 
 - [x] **7.1 Error handling, "try...catch"**
   - [x] Finally or just the code?
@@ -193,27 +218,60 @@
   - [x] Rewrite "rethrow" with async/await
   - [x] Call async from non-async
 
+</details>
 
-#### Lesson 8
+<details >
 
-- [x] **8.1 Modules, introduction**
-- [x] **8.2 Export and Import**
-- [x] **8.3 Dynamic imports**
-- [x] **8.4 Fetch**
+<summary>Lesson 8. Promises & Generators</summary>
+<br>
+
+- [x] **8.1Introduction: callbacks**
+  - [x] Promise
+  - [x] Promises chaining
+  - [x] Error handling with promises
+  - [x] Promise API
+  - [x] Promisification
+  - [x] Microtasks
+  - [x] Async/await
+- [x] **8.2Generators, advanced iteration**
+  - [x] Generators
+  - [x] Async iteration and generators
+
+</details>
+
+<details >
+<summary>Lesson 9. Modules & Network requests</summary>
+<br>
+
+- [x] **9.1 Modules, introduction**
+- [x] **9.2 Export and Import**
+- [x] **9.3 Dynamic imports**
+- [x] **9.4 Fetch**
   - [x] Fetch users from GitHub
-- [x] **8.5 FormData**
-- [x] **8.6 Fetch: Download progress**
-- [x] **8.7 Fetch: Abort**
-- [x] **8.8 Fetch: Cross-Origin Requests**
+- [x] **9.5 FormData**
+- [x] **9.6 Fetch: Download progress**
+- [x] **9.7 Fetch: Abort**
+- [x] **9.8 Fetch: Cross-Origin Requests**
   - [x] Why do we need Origin?
-- [x] **8.9 Fetch API**
-- [x] **8.10 URL objects**
-- [x] **8.11 XMLHttpRequest**
-- [x] **8.12 Resumable file upload**
-- [x] **8.13 Long polling**
-- [x] **8.14 WebSocket**
-- [x] **8.15 Server Sent Events**
+- [x] **9.9 Fetch API**
+- [x] **9.10 URL objects**
+- [x] **9.11 XMLHttpRequest**
+- [x] **9.12 Resumable file upload**
+- [x] **9.13 Long polling**
+- [x] **9.14 WebSocket**
+- [x] **9.15 Server Sent Events**
 
-- [x] **8.16 Cookies, document.cookie**
-- [x] **8.17 LocalStorage, sessionStorage**
-- [x] **8.18 Autosave a form field**
+- [x] **9.16 Cookies, document.cookie**
+- [x] **9.17 LocalStorage, sessionStorage**
+- [x] **9.18 Autosave a form field**
+
+</details>
+
+<details >
+<summary>Lesson 10 Storing data</summary>
+<br>
+
+- [x] **10.1 Storing data in the browser**
+  - [x] Storing data in the browser
+  - [x] Cookies, document.cookie
+  - [x] LocalStorage, sessionStorage
