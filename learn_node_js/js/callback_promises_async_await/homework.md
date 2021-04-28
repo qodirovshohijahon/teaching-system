@@ -1,0 +1,1 @@
+### 1. Do these [Quizzes](https://www.codingame.com/playgrounds/347/javascript-promises-mastering-the-asynchronous/its-quiz-time)

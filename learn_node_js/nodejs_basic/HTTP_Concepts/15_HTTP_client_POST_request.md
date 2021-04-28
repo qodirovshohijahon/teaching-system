@@ -35,3 +35,5 @@ req.on('error', (e) => {
 req.write(postData)
 req.end()
 ```
+
+As a result, the script will send the data to the server (mockbin.com) in a POST request, and output the response of the request.
