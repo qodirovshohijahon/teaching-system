@@ -1,15 +1,16 @@
-Understanding Event Emitters
+### Understanding Event Emitters
+
 Event emitters is a core module for Node developers to implement the observer pattern. The observer pattern has the following: an observer, an event and an event emitter.
 
 The flow goes like this:
 
-A class is created with class
-A class inherits from the EventEmitter class using extends
-An instance of an object is created from the class with new
-An observer (a.k.a. event listener) is created with .on(eventName, eventHandler)
-An event is emitted with emit() and the event handler in the observer is executed.
+- [x] A class is created with class
+- [x] A class inherits from the EventEmitter class using extends
+- [x] An instance of an object is created from the class with new
+- [x] An observer (a.k.a. event listener) is created with .on(eventName, eventHandler)
+- [x] An event is emitted with emit() and the event handler in the observer is executed.
 
-![event emitters](../../imd/event_emitters.png)
+![event emitters](.././../img/event_emitters.png)
 
 Consider this simple observer pattern code which creates a Job class and then instantiates it. Later on, the object created from the class has an observer/event listener attached (job.on('done'...)) and an event is emitted/triggered.
 
@@ -34,7 +35,8 @@ The result will be:
 Job was pronounced done at
 
 
-Multiple Event Triggers
+### Multiple Event Triggers
+
 Events can be triggered/emitted multiple times. For example, in knock-knock.js the knock event is emitted multiple times.
 
 knock-knock.js:
@@ -63,7 +65,9 @@ Who's there?
 Go away!
 Who's there?
 Go away!
-Executing Observer Code Only once
+
+### Executing Observer Code Only once
+
 emitter.once(eventName, eventHandler) will execute observer code just once, no matter how many time this particular event was triggered.
 
 knock-knock-once.js:

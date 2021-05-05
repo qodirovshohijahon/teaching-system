@@ -1,6 +1,6 @@
 path is a core module that is used to work with file and folder paths so that the code works seamlessly on any platform.
 
-path.join()
+### path.join()
 On Windows paths are separated using a \, while on POSIX (Unix, macOS) paths are separated by a /. Therefore, a path might be app\server.js on Windows and app/server.js on POSIX (Unix, macOS). This difference between platforms can cause problems when a path is a hard coded string.
 
 The path.join() method is used to create paths that are platform independent. You should use path.join() instead of hard coding the path because path.join() is guaranteed to work across platforms.
