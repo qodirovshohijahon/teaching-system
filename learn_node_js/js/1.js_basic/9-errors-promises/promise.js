@@ -56,6 +56,6 @@ var askMom = function () {
     });
 };
 
-askMom();
+// askMom();
 
 //console.log(askMom());
