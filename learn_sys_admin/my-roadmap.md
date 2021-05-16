@@ -2,16 +2,14 @@
 
 
 
-## Module 1. Asosiy tushunchalar & Desktop/Server bilan ishlash
-## Module 2. Tarmoq tushunchalari
-## Module 3. Serverlar
-## Module 4. Masterclas & Troubleshooting
-
+### Module 1. Asosiy tushunchalar & Desktop/Server bilan ishlash
+### Module 2. Tarmoq tushunchalari
+### Module 3. Serverlar
+### Module 4. Masterclas & Troubleshooting
 
 
 
 ### Modul 1. 🔰 Asosiy tushunchalar
-
 ####  1. 📌 Kirish
 
 - [x] Linux bilan tanishish, tarixi, asosiy konsepsiyasi
@@ -69,6 +67,10 @@
 - [x] pipe, awk, sed
 - [x] regex bilan ishlash
 
+####  8. 📌 Arxivlash
+
+- [x] Ma'lumotlarni arxivlash	
+- [x] zip, gzip, tg.gzip
 
 
 📎📎📎📎📎📎📎📎📎📎📎📎📎📎📎📎📎📎📎📎📎📎📎📎📎📎📎📎📎📎
@@ -107,6 +109,7 @@
 
 - [x] openssh-server
 - [x] Sozlash ishlatib ko'rish
+- [x] Key based autentikatsiya (pem file)
 
 ####  2. 📌 Fayl serverlari
 
@@ -153,7 +156,7 @@
 - [x] 2. MERN stack	
 - [x] 2. Monitoring grafana stack
 - [x] 3. Virtualizatsiya (kvm, virt-manager)
-- [x] 4. rsync, borg			
+- [x] 4. curl.sh bilan tanishish, ls, scp, rsync, borg		
 - [x] 5. Veeam backup & Replication utilitalar			
 - [x] 6. Konteynerlash texnologiyasi
 - [x] 7. Docker, DockerHub			
