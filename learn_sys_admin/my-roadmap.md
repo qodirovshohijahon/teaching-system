@@ -67,6 +67,9 @@
 - [x] pipe, awk, sed
 - [x] regex bilan ishlash
 
+**tools**
+- [x] [explain shell](https://explainshell.com/) 
+
 ####  8. 📌 Arxivlash
 
 - [x] Ma'lumotlarni arxivlash	
