@@ -1,81 +1,43 @@
-# teaching-system
-### 1.Prerequisites
+## Backend Development with Node.js
 
-  -  JavaScript
-  -  NPM
-  -  Node.js
-  -  ES6/ES7
+<h3>
 
-### 2.General Development Skills
+-  [x] Foundations of Backend Development
 
-  - Learn GIT, create a few repositories on GitHub, share your code with  other people
-  - Know HTTP(S) protocol, request methods (GET, POST, PUT, PATCH, DELETE, OPTIONS)
-  - Don't be afraid of using Google, Power Searching with Google
-  - Read a few books about algorithms and data structures
-  - Web Frameworks
+   -  Getting Started with NodeJs
+   -  Why Does Nodejs Matter
+   -  Javascript with Node js
+   -  NodeJS Globals
+   -  NodeJS Core Modules
+   -  The Event Loop Exists to Process Asynchronous Tasks
+   -  Solution The Event Loop
+   -  Best Practices for Serverside Development
+   -  Solution Create Utilities Libraries
+   -  What Is Node Package Manager
+   -  Is Nodejs Single Threaded
 
-### 3. Express.js
-  
-  - Adonis.js
-  - Meteor.js
-  - Nest.js
-  - Sails.js
-  - Koa.js
-  - Loopback.js
-  - egg.js
-  - midway
 
-### 4. Databases
+-  [x] Getting Started with Node.JS
 
-  #### Relational
+-  [x] Developing with TypeScript
 
-  - SQL Server
-  - PostgreSQL
-  - MariaDB
-  - MySQL
+-  [x] Unit Testing with Jasmine
 
-  ### NoSQL
+-  [x] Building a Server
 
-  - MongoDB
-  - Redis
-  - Apache Cassandra
-  - LiteDB
-  - RavenDB
+</h4>
 
-### 5.Caching
+## Creating an API with PostgreSQL and Express
 
-  - Node-Cache
+<h4>
 
-#### Distributed Cache
+- [x] Databases and SQL
 
-  -  Redis
-  -  Memcached
+- [x] Creata API with Postgresql
 
-#### 6. Logging
+- [x] Create API with Express
 
-### Log Frameworks
-  -  Node-Loggly
-  -  Winston
-  -  Node-Bunyan
-  -  Morgan
-  -  Log Management System
-  -  Sentry.io
-  -  Loggly.com
-  -  Template Engines
+- [x] Athentication and Authorization
 
-#### 7. Real-Time Communication
-
-  - Socket.IO
-
-#### 8. Typed Superset
-
-  - TypeScript
-
-#### 10. API Clients
-
-  - REST
-  - Request
-  - Node-Rest-Client
-  - Axios
-  - GraphQL
-  - Good to Know
+- [x] SQL for advanced API functionality
+</h4>
