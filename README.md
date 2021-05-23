@@ -2,7 +2,9 @@
 
 <h3>
 
--  [x] Foundations of Backend Development
+🔰 Foundations of Backend Development
+
+</h3>
 
 <h4>
 
@@ -20,7 +22,11 @@
 
 </h4>
 
--  [x] Getting Started with Node.JS
+<h3>
+
+🔰 Getting Started with Node.JS
+
+</h3>
 
 -  [x] Developing with TypeScript
 
