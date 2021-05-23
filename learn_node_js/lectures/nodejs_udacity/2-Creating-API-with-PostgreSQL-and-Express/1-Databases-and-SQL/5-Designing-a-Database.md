@@ -17,3 +17,10 @@ See
 
 Task 2 - Generating Reports
 I need to report on activity within the app to show stakeholders that we are getting more traction and involvement. Can we get total entries week by week for the last month?
+
+
+Links for Learn more
+
+- [x] [PostgreSQL Tutorial (tutorials point)](https://www.tutorialspoint.com/postgresql/index.htm)
+- [x] [database.guide](https://database.guide/category/sql/)
+- [x] [Prisma's Data Guide](https://www.prisma.io/dataguide/postgresql/getting-to-know-postgresql)
