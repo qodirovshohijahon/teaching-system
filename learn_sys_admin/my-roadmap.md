@@ -157,7 +157,8 @@
 
 - [x] 1. tmux, screen, logrotate
 - [x] 2. MERN stack	
-- [x] 2. Monitoring grafana stack
+- [x] 2. Monitoring grafana stack 
+     [Log Collectors for Centralized Logging](https://geekflare.com/open-source-centralized-logging/)
 - [x] 3. Virtualizatsiya (kvm, virt-manager)
 - [x] 4. curl.sh bilan tanishish, ls, scp, rsync, borg		
 - [x] 5. Veeam backup & Replication utilitalar			

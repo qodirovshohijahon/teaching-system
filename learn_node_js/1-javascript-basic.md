@@ -261,17 +261,4 @@
 - [x] **9.14 WebSocket**
 - [x] **9.15 Server Sent Events**
 
-- [x] **9.16 Cookies, document.cookie**
-- [x] **9.17 LocalStorage, sessionStorage**
-- [x] **9.18 Autosave a form field**
-
 </details>
-
-<details >
-<summary>Lesson 10 Storing data</summary>
-<br>
-
-- [x] **10.1 Storing data in the browser**
-  - [x] Storing data in the browser
-  - [x] Cookies, document.cookie
-  - [x] LocalStorage, sessionStorage
